@@ -1,0 +1,210 @@
+{
+	"pages": [
+		//========================首页-调试-开始========================
+		{
+			//开发调试首页
+			"path" : "pages/test/index/index",
+			"style" : 
+			{
+				"navigationBarTitleText" : "开发调试首页",
+				"enablePullDownRefresh": false
+			}
+		},
+		
+		//========================首页-调试-结束========================
+		//========================测试页面-开始========================
+		{
+			//测试页面汇总
+			"path": "pages/test/test",
+			"style": {
+				"navigationBarTitleText": "测试页面汇总",
+				"enablePullDownRefresh": false
+			}
+		
+		},
+		{
+			//测试websocket通信
+			"path" : "pages/test/websocket/websocket/websocket",
+			"style" : 
+			{
+				"navigationBarTitleText" : "测试websocket通信",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			//测试微信H5支付
+			"path" : "pages/test/pay/wechat-js-pay/wechat-js-pay",
+			"style" : 
+			{
+				"navigationBarTitleText" : "WecahtH5PayByJs",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			//测试微信公众号登录
+			"path" : "pages/test/login/wechat-official-login/wechat-official-login",
+			"style" : 
+			{
+				"navigationBarTitleText" : "测试微信公众号登录",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			//测试上传图片
+			"path" : "pages/test/upload/upload-picture/upload-picture",
+			"style" : 
+			{
+				"navigationBarTitleText" : "测试上传图片",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			//获取位置(定位)
+			"path" : "pages/test/location/get-location/get-location",
+			"style" : 
+			{
+				"navigationBarTitleText" : "定位测试",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			//退出测试
+			"path" : "pages/test/login/logout/logout",
+			"style" : 
+			{
+				"navigationBarTitleText" : "测试退出",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path" : "pages/test/login/wechat-official-auth/wechat-official-auth",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		//========================测试页面-结束========================
+		//========================登录注册-开始========================
+		{
+			
+			//登录页面
+			"path" : "pages/YouHu/V1/login/login/login",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh": false,
+				//自定义导航栏
+				"titleNView":false
+			}
+		},
+		{
+			//注册
+			"path" : "pages/YouHu/V1/login/register/register",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh": false,
+				//自定义导航栏
+				"titleNView":false
+			}
+		},
+		{
+			//手机认证
+			"path" : "pages/YouHu/V1/login/phone-auth/phone-auth",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh": false,
+				//自定义导航栏
+				"titleNView":false
+			}
+		},
+		{
+			//忘记密码(重置密码)
+			"path" : "pages/YouHu/V1/login/reset-password/reset-password",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh": false,
+				//自定义导航栏
+				"titleNView":false
+			}
+		},
+		{
+			//帮助中心
+			"path" : "pages/YouHu/V1/login/login-help/login-help",
+			"style" : 
+			{
+				"navigationBarTitleText" : "帮助中心"
+			}
+		},
+		//========================登录注册-结束========================
+		//========================tabBar-开始========================
+		{
+			//首页
+			"path" : "pages/YouHu/V1/tabBar/user/index/index",
+			"style" : 
+			{
+				"navigationBarTitleText" : "首页",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			//我的
+			"path" : "pages/YouHu/V1/tabBar/user/my/my",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		}
+		//========================tabBar-结束========================
+    ],
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			// "^uni-(.*)": "@/uni_modules/uni-$1/components/uni-$1/uni-$1.vue",
+			"^yh-(.*)": "@/pages/YouHu/V1/components/yh-$1/yh-$1.vue",
+			"^yh-(.*)-(.*)": "@/pages/YouHu/V1/components/yh-$1-$2/yh-$1-$2.vue",
+			"^yh-(.*)-(.*)-(.*)": "@/pages/YouHu/V1/components/yh-$1-$2-$3/yh-$1-$2-$3.vue"
+		}
+	},
+	"globalStyle": {
+		"pageOrientation": "portrait",
+		"navigationBarTitleText": "Hello uniapp",
+		"navigationBarTextStyle": "white",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#F8F8F8",
+		"backgroundColorTop": "#F4F5F6",
+		"backgroundColorBottom": "#F4F5F6",
+		"mp-360": {
+			"navigationStyle": "custom"
+		},
+		"h5": {
+			"maxWidth": 1190,
+			"navigationBarTextStyle": "black",
+			"navigationBarBackgroundColor": "#FFF"
+		}
+	},
+	"tabBar": {
+		"color": "#868889",
+		"selectedColor": "#599C0B",
+		"borderStyle": "white",
+		"backgroundColor": "#fff",
+		"list": [
+			// 用户端tabBar
+			 {
+				"pagePath": "pages/YouHu/tabBar/user/index/index",
+				"iconPath": "static/tab-bar/home.png",
+				"selectedIconPath": "static/tab-bar/home-select.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/YouHu/tabBar/user/my/my",
+				"iconPath": "static/tab-bar/my.png",
+				"selectedIconPath": "static/tab-bar/my-select.png",
+				"text": "我的"
+			} 
+		]
+	}
+}
+

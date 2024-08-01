@@ -1,0 +1,9 @@
+
+打包证书: (自己生成)
+didongdiandao.keystore
+
+密码:
+niusenkeji321%
+
+别名:
+didong

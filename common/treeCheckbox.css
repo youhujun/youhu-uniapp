@@ -1,0 +1,30 @@
+.tree-bar {
+		background-color: #fff;
+		height: 90rpx;
+		padding-left: 25rpx;
+		padding-right: 25rpx;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		box-sizing: border-box;
+		border-bottom-width: 2rpx !important;
+		border-bottom-style: solid;
+		border-bottom-color: #f5f5f5;
+		font-size: 32rpx;
+		color: #757575;
+		line-height: 1;
+	}
+	
+	.tree-bar-confirm {
+		color: #599c0b;
+		padding: 15rpx;
+	}
+	
+	.tree-bar-title {
+		color: #757575;
+	}
+	
+	.tree-bar-cancel {
+		color: #757575;
+		padding: 15rpx;
+	}

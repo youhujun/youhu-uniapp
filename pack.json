@@ -1,0 +1,48 @@
+{
+   
+    "project": "uni-app-youhujun-v2",
+  
+    "platform":"android",
+    
+    "iscustom": false,
+  
+    "safemode": true,
+   
+    "android": {
+    
+      "packagename":"",
+      
+      "androidpacktype":"0",
+      
+      "certalias":"",
+      
+      "certfile":"",
+    
+      "certpassword":"",
+     
+      "channels":""
+      },
+   
+    "ios": {
+      
+       "bundle":"",
+      
+       "supporteddevice":"",
+      
+       "profile":"",
+       
+       "certfile":"",
+     
+       "certpassword":""
+     },
+   
+    "isconfusion":false,
+   
+    "splashads":false,
+  
+    "rpads":false,
+  
+    "pushads":false,
+   
+    "exchange":false
+}

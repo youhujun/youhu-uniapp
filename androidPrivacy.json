@@ -1,0 +1,32 @@
+{
+    "version" : "100",
+    "prompt" : "template",
+    "title" : "个人信息保护提示",
+    "message" : "  欢迎使用游鹄! 我们非常重视和保护您的个人信息和隐私,请你务必审慎阅读、充分理解“用户协议”和“隐私政策”各条款，包括但不限于：为了更好的向你提供服务，我们需要收集你的设备标识、操作日志等信息用于分析、优化应用性能。<br/>　　你可阅读<a href=\"\">《用户协议》</a>和<a href=\"\">《隐私政策》</a>了解我们是如何规范地收集和使用您的个人信息。如果你同意，请点击下面按钮开始接受我们的服务。",
+    "buttonAccept" : "同意并接受",
+    "buttonRefuse" : "不同意",
+    "hrefLoader" : "system",
+    "second" : {
+        "title" : "温馨提示",
+        "message" : "　　如果您不同意<a href=\"\">《用户协议》</a>和<a href=\"\">《隐私政策》</a>，游鹄之乡部分业务功能需要您同意以上协议后才能使用,否则将影响您的使用体验!。<br/>  我们将严格按照相关法律法规要求,坚决保障您的个人隐私和信息安全",
+        "buttonAccept" : "同意并继续",
+        "buttonRefuse" : "仍不同意"
+    },
+    "styles" : {
+        "backgroundColor" : "#FFFFFF",
+        "borderRadius" : "5rpx",
+        "title" : {
+            "color" : "#000000"
+        },
+        "buttonAccept" : {
+            "color" : "#599C0B"
+        },
+        "buttonRefuse" : {
+            "color" : "#6A6A6A"
+        }
+    },
+    "disagreeMode" : {
+        "support" : true,
+        "loadNativePlugins" : true
+    }
+}

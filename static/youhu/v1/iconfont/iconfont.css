@@ -1,0 +1,78 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 3763815 */
+  /* src: url('iconfont.woff2?t=1722308974617') format('woff2'),
+       url('iconfont.woff?t=1722308974617') format('woff'),
+       url('iconfont.ttf?t=1722308974617') format('truetype'),
+       url('iconfont.svg?t=1722308974617#iconfont') format('svg'); */
+    src:
+       url('https://at.alicdn.com/t/c/font_3763815_b7bt2bwg9ei.ttf?t=1722309359548') format('truetype'),
+       
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-jt1:before {
+  content: "\e68c";
+}
+
+.icon-jt:before {
+  content: "\e68a";
+}
+
+.icon-eye-invisible:before {
+  content: "\e68b";
+}
+
+.icon-eye:before {
+  content: "\e685";
+}
+
+.icon-lock:before {
+  content: "\e686";
+}
+
+.icon-user:before {
+  content: "\e687";
+}
+
+.icon-phone:before {
+  content: "\e688";
+}
+
+.icon-general:before {
+  content: "\e689";
+}
+
+.icon-a-tubiaomingchenghelp1:before {
+  content: "\e684";
+}
+
+.icon-a-tubiaomingchengohtr:before {
+  content: "\e683";
+}
+
+.icon-vx:before {
+  content: "\e681";
+}
+
+.icon-a-tubiaomingchengregister:before {
+  content: "\e682";
+}
+
+.icon-logo-white:before {
+  content: "\e67e";
+}
+
+.icon-logo-blue:before {
+  content: "\e67f";
+}
+
+.icon-logo:before {
+  content: "\e67d";
+}
+

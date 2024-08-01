@@ -1,0 +1,16 @@
+/* 页面样式盒子 */
+.yh-page{
+	width: 750rpx;
+	background: #FFFFFF;
+	display: flex;
+	flex-direction: column;
+	/* background-color: aqua; */
+}
+/* 页面高度 */
+.yh-height{
+   height: 1536rpx;
+}
+/* 页面 */
+.yh-no-title-height{
+   height: 1624rpx;
+}

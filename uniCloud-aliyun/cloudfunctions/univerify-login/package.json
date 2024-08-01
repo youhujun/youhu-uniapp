@@ -1,0 +1,15 @@
+{
+  "name": "univerify-login",
+  "dependencies": [],
+  "extensions": {
+    "uni-cloud-jql": {},
+    "uni-cloud-verify": {}
+  },
+  "cloudfunction-config": {
+    "memorySize": 256,
+    "timeout": 10,
+    "triggers": [],
+    "path": "/univerifyLogin",
+    "runtime": "Nodejs8"
+  }
+}
